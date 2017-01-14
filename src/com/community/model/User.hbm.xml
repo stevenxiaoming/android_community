@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.community.model.User" table="_user">
+		<id name="userid" column="userid" length="10">
+			<generator class="assigned" />
+		</id>
+		<property name="password" column="password" length="20" />
+		<property name="age" column="age" length="5" />
+		<property name="department" column="department" length="20" />
+		
+		<!-- 配置关联关系映射 -->
+
+	</class>
+</hibernate-mapping>

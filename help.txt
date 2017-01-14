@@ -1,0 +1,3 @@
+帮助文档
+MySQL数据库：
+	查看数据库链接 show status;

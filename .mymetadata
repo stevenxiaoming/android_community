@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="android_community"
+  id="myeclipse.1484323108122"
+  context-root="/android_community"
+  j2ee-spec="6.0"
+  archive="android_community.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
