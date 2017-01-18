@@ -5,10 +5,14 @@
 
 <struts>
 
-    <package name="community" extends="struts-default" namespace="/">
+	<constant name="struts.devMode" value="true" />
+	
+    <package name="community" extends="struts-default,json-default" namespace="/">
     	<action name="user_*" class="userAction" method="{1}">
-    		<result name="finish">/index.jsp</result>
+    		<result name="finish">success.jsp</result>
+    		<result name="Jfinish" type="json"><param name="root">jdata</param></result>
     	</action>
     </package>
+    
  
 </struts>
